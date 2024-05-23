@@ -7,6 +7,6 @@ export const limiter = rateLimit({
   message: 'To many request',
   standardHeaders: true,
   legacyHeaders: false,
-  keyGenerator: (req) => req.ip,
+  keyGenerator: (req) => req.ip as string,
   statusCode: 429
 });
