@@ -1,0 +1,868 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Luna",
+      "animal_type": "Dog",
+      "age": 2,
+      "photo_link": "https://example.com/photos/luna.jpg",
+      "health_status": "Good",
+      "application_count": 3,
+      "color": "Black",
+      "size": "Medium",
+      "personality": "Friendly",
+      "return_count": 0,
+      "location": "Bogotá"
+    },
+    {
+      "id": 2,
+      "name": "Milo",
+      "animal_type": "Cat",
+      "age": 1,
+      "photo_link": "https://example.com/photos/milo.jpg",
+      "health_status": "Excellent",
+      "application_count": 5,
+      "color": "Orange",
+      "size": "Small",
+      "personality": "Playful",
+      "return_count": 1,
+      "location": "Medellín"
+    },
+    {
+      "id": 3,
+      "name": "Bella",
+      "animal_type": "Dog",
+      "age": 3,
+      "photo_link": "https://example.com/photos/bella.jpg",
+      "health_status": "Fair",
+      "application_count": 2,
+      "color": "Brown",
+      "size": "Large",
+      "personality": "Calm",
+      "return_count": 0,
+      "location": "Cali"
+    },
+    {
+      "id": 4,
+      "name": "Oliver",
+      "animal_type": "Cat",
+      "age": 4,
+      "photo_link": "https://example.com/photos/oliver.jpg",
+      "health_status": "Good",
+      "application_count": 4,
+      "color": "Gray",
+      "size": "Medium",
+      "personality": "Curious",
+      "return_count": 2,
+      "location": "Barranquilla"
+    },
+    {
+      "id": 5,
+      "name": "Max",
+      "animal_type": "Dog",
+      "age": 5,
+      "photo_link": "https://example.com/photos/max.jpg",
+      "health_status": "Excellent",
+      "application_count": 6,
+      "color": "White",
+      "size": "Large",
+      "personality": "Energetic",
+      "return_count": 1,
+      "location": "Cartagena"
+    },
+    {
+      "id": 6,
+      "name": "Charlie",
+      "animal_type": "Dog",
+      "age": 3,
+      "photo_link": "https://example.com/photos/charlie.jpg",
+      "health_status": "Good",
+      "application_count": 2,
+      "color": "Golden",
+      "size": "Large",
+      "personality": "Friendly",
+      "return_count": 0,
+      "location": "Pereira"
+    },
+    {
+      "id": 7,
+      "name": "Simba",
+      "animal_type": "Cat",
+      "age": 2,
+      "photo_link": "https://example.com/photos/simba.jpg",
+      "health_status": "Fair",
+      "application_count": 3,
+      "color": "Black and White",
+      "size": "Small",
+      "personality": "Loyal",
+      "return_count": 0,
+      "location": "Manizales"
+    },
+    {
+      "id": 8,
+      "name": "Daisy",
+      "animal_type": "Dog",
+      "age": 4,
+      "photo_link": "https://example.com/photos/daisy.jpg",
+      "health_status": "Excellent",
+      "application_count": 1,
+      "color": "White",
+      "size": "Medium",
+      "personality": "Calm",
+      "return_count": 0,
+      "location": "Cúcuta"
+    },
+    {
+      "id": 9,
+      "name": "Tiger",
+      "animal_type": "Cat",
+      "age": 3,
+      "photo_link": "https://example.com/photos/tiger.jpg",
+      "health_status": "Good",
+      "application_count": 4,
+      "color": "Striped",
+      "size": "Medium",
+      "personality": "Playful",
+      "return_count": 1,
+      "location": "Bucaramanga"
+    },
+    {
+      "id": 10,
+      "name": "Rocky",
+      "animal_type": "Dog",
+      "age": 2,
+      "photo_link": "https://example.com/photos/rocky.jpg",
+      "health_status": "Excellent",
+      "application_count": 5,
+      "color": "Brown",
+      "size": "Large",
+      "personality": "Energetic",
+      "return_count": 0,
+      "location": "Santa Marta"
+    },
+    {
+      "id": 11,
+      "name": "Lola",
+      "animal_type": "Cat",
+      "age": 1,
+      "photo_link": "https://example.com/photos/lola.jpg",
+      "health_status": "Good",
+      "application_count": 3,
+      "color": "Calico",
+      "size": "Small",
+      "personality": "Curious",
+      "return_count": 0,
+      "location": "Ibagué"
+    },
+    {
+      "id": 12,
+      "name": "Buster",
+      "animal_type": "Dog",
+      "age": 4,
+      "photo_link": "https://example.com/photos/buster.jpg",
+      "health_status": "Fair",
+      "application_count": 2,
+      "color": "Black",
+      "size": "Large",
+      "personality": "Loyal",
+      "return_count": 1,
+      "location": "Montería"
+    },
+    {
+      "id": 13,
+      "name": "Mimi",
+      "animal_type": "Cat",
+      "age": 2,
+      "photo_link": "https://example.com/photos/mimi.jpg",
+      "health_status": "Excellent",
+      "application_count": 4,
+      "color": "Gray",
+      "size": "Small",
+      "personality": "Friendly",
+      "return_count": 0,
+      "location": "Pasto"
+    },
+    {
+      "id": 14,
+      "name": "Buddy",
+      "animal_type": "Dog",
+      "age": 3,
+      "photo_link": "https://example.com/photos/buddy.jpg",
+      "health_status": "Good",
+      "application_count": 3,
+      "color": "Golden",
+      "size": "Medium",
+      "personality": "Energetic",
+      "return_count": 0,
+      "location": "Villavicencio"
+    },
+    {
+      "id": 15,
+      "name": "Chloe",
+      "animal_type": "Cat",
+      "age": 4,
+      "photo_link": "https://example.com/photos/chloe.jpg",
+      "health_status": "Good",
+      "application_count": 2,
+      "color": "Black",
+      "size": "Medium",
+      "personality": "Calm",
+      "return_count": 2,
+      "location": "Neiva"
+    },
+    {
+      "id": 16,
+      "name": "Jack",
+      "animal_type": "Dog",
+      "age": 5,
+      "photo_link": "https://example.com/photos/jack.jpg",
+      "health_status": "Excellent",
+      "application_count": 1,
+      "color": "White",
+      "size": "Large",
+      "personality": "Playful",
+      "return_count": 1,
+      "location": "Armenia"
+    },
+    {
+      "id": 17,
+      "name": "Leo",
+      "animal_type": "Cat",
+      "age": 3,
+      "photo_link": "https://example.com/photos/leo.jpg",
+      "health_status": "Fair",
+      "application_count": 4,
+      "color": "Orange",
+      "size": "Small",
+      "personality": "Curious",
+      "return_count": 0,
+      "location": "Popayán"
+    },
+    {
+      "id": 18,
+      "name": "Roxy",
+      "animal_type": "Dog",
+      "age": 2,
+      "photo_link": "https://example.com/photos/roxy.jpg",
+      "health_status": "Good",
+      "application_count": 5,
+      "color": "Brown",
+      "size": "Medium",
+      "personality": "Loyal",
+      "return_count": 0,
+      "location": "Sincelejo"
+    },
+    {
+      "id": 19,
+      "name": "Lucy",
+      "animal_type": "Cat",
+      "age": 1,
+      "photo_link": "https://example.com/photos/lucy.jpg",
+      "health_status": "Excellent",
+      "application_count": 3,
+      "color": "White",
+      "size": "Small",
+      "personality": "Friendly",
+      "return_count": 0,
+      "location": "Tunja"
+    },
+    {
+      "id": 20,
+      "name": "Zeus",
+      "animal_type": "Dog",
+      "age": 4,
+      "photo_link": "https://example.com/photos/zeus.jpg",
+      "health_status": "Fair",
+      "application_count": 2,
+      "color": "Black",
+      "size": "Large",
+      "personality": "Calm",
+      "return_count": 1,
+      "location": "Florencia"
+    },
+    {
+      "id": 21,
+      "name": "Ginger",
+      "animal_type": "Cat",
+      "age": 2,
+      "photo_link": "https://example.com/photos/ginger.jpg",
+      "health_status": "Good",
+      "application_count": 4,
+      "color": "Orange",
+      "size": "Medium",
+      "personality": "Playful",
+      "return_count": 0,
+      "location": "Riohacha"
+    },
+    {
+      "id": 22,
+      "name": "Duke",
+      "animal_type": "Dog",
+      "age": 3,
+      "photo_link": "https://example.com/photos/duke.jpg",
+      "health_status": "Excellent",
+      "application_count": 1,
+      "color": "Brown",
+      "size": "Large",
+      "personality": "Friendly",
+      "return_count": 0,
+      "location": "Quibdó"
+    },
+    {
+      "id": 23,
+      "name": "Nala",
+      "animal_type": "Cat",
+      "age": 4,
+      "photo_link": "https://example.com/photos/nala.jpg",
+      "health_status": "Good",
+      "application_count": 3,
+      "color": "Gray",
+      "size": "Small",
+      "personality": "Curious",
+      "return_count": 1,
+      "location": "Yopal"
+    },
+    {
+      "id": 24,
+      "name": "Toby",
+      "animal_type": "Dog",
+      "age": 2,
+      "photo_link": "https://example.com/photos/toby.jpg",
+      "health_status": "Excellent",
+      "application_count": 5,
+      "color": "Golden",
+      "size": "Medium",
+      "personality": "Loyal",
+      "return_count": 0,
+      "location": "Arauca"
+    },
+    {
+      "id": 25,
+      "name": "Coco",
+      "animal_type": "Cat",
+      "age": 3,
+      "photo_link": "https://example.com/photos/coco.jpg",
+      "health_status": "Fair",
+      "application_count": 2,
+      "color": "Black and White",
+      "size": "Medium",
+      "personality": "Playful",
+      "return_count": 2,
+      "location": "Mocoa"
+    },
+    {
+      "id": 26,
+      "name": "Rex",
+      "animal_type": "Dog",
+      "age": 5,
+      "photo_link": "https://example.com/photos/rex.jpg",
+      "health_status": "Good",
+      "application_count": 1,
+      "color": "Black",
+      "size": "Large",
+      "personality": "Energetic",
+      "return_count": 1,
+      "location": "San Andrés"
+    },
+    {
+      "id": 27,
+      "name": "Missy",
+      "animal_type": "Cat",
+      "age": 1,
+      "photo_link": "https://example.com/photos/missy.jpg",
+      "health_status": "Excellent",
+      "application_count": 4,
+      "color": "Calico",
+      "size": "Small",
+      "personality": "Friendly",
+      "return_count": 0,
+      "location": "Leticia"
+    },
+    {
+      "id": 28,
+      "name": "Bruno",
+      "animal_type": "Dog",
+      "age": 3,
+      "photo_link": "https://example.com/photos/bruno.jpg",
+      "health_status": "Good",
+      "application_count": 3,
+      "color": "Brown",
+      "size": "Medium",
+      "personality": "Calm",
+      "return_count": 0,
+      "location": "Puerto Carreño"
+    },
+    {
+      "id": 29,
+      "name": "Zoe",
+      "animal_type": "Cat",
+      "age": 2,
+      "photo_link": "https://example.com/photos/zoe.jpg",
+      "health_status": "Fair",
+      "application_count": 5,
+      "color": "Gray",
+      "size": "Small",
+      "personality": "Curious",
+      "return_count": 1,
+      "location": "Inírida"
+    },
+    {
+      "id": 30,
+      "name": "Oscar",
+      "animal_type": "Dog",
+      "age": 4,
+      "photo_link": "https://example.com/photos/oscar.jpg",
+      "health_status": "Excellent",
+      "application_count": 2,
+      "color": "Black",
+      "size": "Large",
+      "personality": "Loyal",
+      "return_count": 0,
+      "location": "Mitú"
+    }
+  ],
+  "users": [
+    {
+      "name": "Carlos Martínez",
+      "email": "carlos.martinez@example.com",
+      "role": "Rescatista",
+      "photo": "https://example.com/photos/carlos.jpg",
+      "account_creation_date": "2022-05-14",
+      "basic_presentation": "Amo los animales y me dedico a rescatarlos.",
+      "social_media": {
+        "instagram": "carlos_rescues",
+        "x": "carlos_rescues",
+        "facebook": "carlos.martinez",
+        "linkedin": "carlosmartinez"
+      },
+      "rescues_count": 15,
+      "rating": 5,
+      "years": 35
+    },
+    {
+      "name": "María Gómez",
+      "email": "maria.gomez@example.com",
+      "role": "Adoptante",
+      "photo": "https://example.com/photos/maria.jpg",
+      "account_creation_date": "2021-08-10",
+      "basic_presentation": "Amante de los gatos, adoptante responsable.",
+      "social_media": {
+        "instagram": "maria_gomez",
+        "x": "maria_gomez",
+        "facebook": "maria.gomez",
+        "linkedin": "mariagomez"
+      },
+      "adoptions_count": 3,
+      "rating": 4,
+      "years": 28
+    },
+    {
+      "name": "Juan Pérez",
+      "email": "juan.perez@example.com",
+      "role": "Rescatista",
+      "photo": "https://example.com/photos/juan.jpg",
+      "account_creation_date": "2020-11-20",
+      "basic_presentation": "Dedicado a rescatar perros callejeros.",
+      "social_media": {
+        "instagram": "juan_rescues",
+        "x": "juan_rescues",
+        "facebook": "juan.perez",
+        "linkedin": "juanperez"
+      },
+      "rescues_count": 25,
+      "rating": 5,
+      "years": 42
+    },
+    {
+      "name": "Laura Sánchez",
+      "email": "laura.sanchez@example.com",
+      "role": "Adoptante",
+      "photo": "https://example.com/photos/laura.jpg",
+      "account_creation_date": "2019-07-05",
+      "basic_presentation": "Adoptante comprometida con el bienestar animal.",
+      "social_media": {
+        "instagram": "laura_sanchez",
+        "x": "laura_sanchez",
+        "facebook": "laura.sanchez",
+        "linkedin": "laurasanchez"
+      },
+      "adoptions_count": 4,
+      "rating": 5,
+      "years": 33
+    },
+    {
+      "name": "Roberto López",
+      "email": "roberto.lopez@example.com",
+      "role": "Rescatista",
+      "photo": "https://example.com/photos/roberto.jpg",
+      "account_creation_date": "2021-03-15",
+      "basic_presentation": "Voluntario en rescates de animales.",
+      "social_media": {
+        "instagram": "roberto_rescues",
+        "x": "roberto_rescues",
+        "facebook": "roberto.lopez",
+        "linkedin": "robertolopez"
+      },
+      "rescues_count": 10,
+      "rating": 4,
+      "years": 29
+    },
+    {
+      "name": "Ana Ruiz",
+      "email": "ana.ruiz@example.com",
+      "role": "Adoptante",
+      "photo": "https://example.com/photos/ana.jpg",
+      "account_creation_date": "2023-01-12",
+      "basic_presentation": "Adoptante novata, amante de los animales.",
+      "social_media": {
+        "instagram": "ana_ruiz",
+        "x": "ana_ruiz",
+        "facebook": "ana.ruiz",
+        "linkedin": "anaruiz"
+      },
+      "adoptions_count": 1,
+      "rating": 3,
+      "years": 25
+    },
+    {
+      "name": "Miguel Torres",
+      "email": "miguel.torres@example.com",
+      "role": "Rescatista",
+      "photo": "https://example.com/photos/miguel.jpg",
+      "account_creation_date": "2022-09-25",
+      "basic_presentation": "Rescatista con enfoque en perros maltratados.",
+      "social_media": {
+        "instagram": "miguel_rescues",
+        "x": "miguel_rescues",
+        "facebook": "miguel.torres",
+        "linkedin": "migueltorres"
+      },
+      "rescues_count": 18,
+      "rating": 5,
+      "years": 38
+    },
+    {
+      "name": "Elena Ramírez",
+      "email": "elena.ramirez@example.com",
+      "role": "Adoptante",
+      "photo": "https://example.com/photos/elena.jpg",
+      "account_creation_date": "2020-06-30",
+      "basic_presentation": "Hogares temporales y adopciones responsables.",
+      "social_media": {
+        "instagram": "elena_ramirez",
+        "x": "elena_ramirez",
+        "facebook": "elena.ramirez",
+        "linkedin": "elenaramirez"
+      },
+      "adoptions_count": 2,
+      "rating": 4,
+      "years": 31
+    },
+    {
+      "name": "Pedro Castro",
+      "email": "pedro.castro@example.com",
+      "role": "Rescatista",
+      "photo": "https://example.com/photos/pedro.jpg",
+      "account_creation_date": "2018-02-18",
+      "basic_presentation": "Rescatista experimentado en zonas rurales.",
+      "social_media": {
+        "instagram": "pedro_rescues",
+        "x": "pedro_rescues",
+        "facebook": "pedro.castro",
+        "linkedin": "pedrocastro"
+      },
+      "rescues_count": 22,
+      "rating": 5,
+      "years": 47
+    },
+    {
+      "name": "Claudia Ortiz",
+      "email": "claudia.ortiz@example.com",
+      "role": "Adoptante",
+      "photo": "https://example.com/photos/claudia.jpg",
+      "account_creation_date": "2019-10-09",
+      "basic_presentation": "Adoptante con pasión por los perros.",
+      "social_media": {
+        "instagram": "claudia_ortiz",
+        "x": "claudia_ortiz",
+        "facebook": "claudia.ortiz",
+        "linkedin": "claudiaortiz"
+      },
+      "adoptions_count": 5,
+      "rating": 5,
+      "years": 36
+    }
+  ],
+  "request": [
+    {
+      "id": 1,
+      "adopting_user_id": 3,
+      "rescuing_user_id": 5,
+      "pet_id": 8,
+      "creation_date": "2024-05-23T12:30:45Z",
+      "messages": [
+        {
+          "id": 1,
+          "date": "2024-05-23T12:30:45Z",
+          "destination_user_id": 3,
+          "sender_user_id": 5,
+          "message": "Hello! I'm interested in adopting your pet."
+        },
+        {
+          "id": 2,
+          "date": "2024-05-24T09:15:30Z",
+          "destination_user_id": 5,
+          "sender_user_id": 3,
+          "message": "Sure! Can we talk more about the pet and your home?"
+        }
+      ],
+      "request_status": "pending",
+      "household_composition": "Small family",
+      "household_type": "Apartment",
+      "lifestyle": "Active"
+    },
+    {
+      "id": 2,
+      "adopting_user_id": 2,
+      "rescuing_user_id": 4,
+      "pet_id": 11,
+      "creation_date": "2024-05-22T10:45:30Z",
+      "messages": [
+        {
+          "id": 1,
+          "date": "2024-05-22T10:45:30Z",
+          "destination_user_id": 2,
+          "sender_user_id": 4,
+          "message": "Hi! I would love to adopt your pet."
+        },
+        {
+          "id": 2,
+          "date": "2024-05-22T11:20:15Z",
+          "destination_user_id": 4,
+          "sender_user_id": 2,
+          "message": "Hi! I'm glad you're interested. Can we know more about her?"
+        }
+      ],
+      "request_status": "accepted",
+      "household_composition": "Large family",
+      "household_type": "House with yard",
+      "lifestyle": "Calm"
+    },
+    {
+      "id": 3,
+      "adopting_user_id": 7,
+      "rescuing_user_id": 9,
+      "pet_id": 16,
+      "creation_date": "2024-05-21T08:20:10Z",
+      "messages": [
+        {
+          "id": 1,
+          "date": "2024-05-21T08:20:10Z",
+          "destination_user_id": 7,
+          "sender_user_id": 9,
+          "message": "Hi, I've seen you're looking for a home for your pet. I'd like to know more about her."
+        },
+        {
+          "id": 2,
+          "date": "2024-05-21T08:45:30Z",
+          "destination_user_id": 9,
+          "sender_user_id": 7,
+          "message": "Sure! What would you like to know?"
+        }
+      ],
+      "request_status": "rejected",
+      "household_composition": "Single person",
+      "household_type": "Apartment",
+      "lifestyle": "Active"
+    },
+    {
+      "id": 4,
+      "adopting_user_id": 10,
+      "rescuing_user_id": 6,
+      "pet_id": 20,
+      "creation_date": "2024-05-20T14:55:20Z",
+      "messages": [
+        {
+          "id": 1,
+          "date": "2024-05-20T14:55:20Z",
+          "destination_user_id": 10,
+          "sender_user_id": 6,
+          "message": "Hi, I'm interested in adopting your pet. Is she still available?"
+        },
+        {
+          "id": 2,
+          "date": "2024-05-20T15:10:40Z",
+          "destination_user_id": 6,
+          "sender_user_id": 10,
+          "message": "Yes, she's still available. Can I know more about you and your home?"
+        }
+      ],
+      "request_status": "pending",
+      "household_composition": "Couple",
+      "household_type": "House",
+      "lifestyle": "Active"
+    },
+    {
+      "id": 5,
+      "adopting_user_id": 8,
+      "rescuing_user_id": 2,
+      "pet_id": 25,
+      "creation_date": "2024-05-19T16:40:55Z",
+      "messages": [
+        {
+          "id": 1,
+          "date": "2024-05-19T16:40:55Z",
+          "destination_user_id": 8,
+          "sender_user_id": 2,
+          "message": "Hi, I'm interested in adopting your pet. Can we talk more about it?"
+        },
+        {
+          "id": 2,
+          "date": "2024-05-19T17:05:30Z",
+          "destination_user_id": 2,
+          "sender_user_id": 8,
+          "message": "Of course! I'm happy to tell you more about her."
+        }
+      ],
+      "request_status": "rejected",
+      "household_composition": "Small family",
+      "household_type": "Apartment",
+      "lifestyle": "Active"
+    },
+    {
+      "id": 6,
+      "adopting_user_id": 1,
+      "rescuing_user_id": 7,
+      "pet_id": 28,
+      "creation_date": "2024-05-18T13:25:10Z",
+      "messages": [
+        {
+          "id": 1,
+          "date": "2024-05-18T13:25:10Z",
+          "destination_user_id": 1,
+          "sender_user_id": 7,
+          "message": "Hi, I'd love to adopt your pet. Is she still available?"
+        },
+        {
+          "id": 2,
+          "date": "2024-05-18T13:40:55Z",
+          "destination_user_id": 7,
+          "sender_user_id": 1,
+          "message": "Yes, she's still looking for a home. Can you tell me more about yourself?"
+        }
+      ],
+      "request_status": "accepted",
+      "household_composition": "Large family",
+      "household_type": "House with garden",
+      "lifestyle": "Active"
+    },
+    {
+      "id": 7,
+      "adopting_user_id": 5,
+      "rescuing_user_id": 10,
+      "pet_id": 33,
+      "creation_date": "2024-05-17T11:10:30Z",
+      "messages": [
+        {
+          "id": 1,
+          "date": "2024-05-17T11:10:30Z",
+          "destination_user_id": 5,
+          "sender_user_id": 10,
+          "message": "Hi, I'm interested in adopting your pet. Can we talk more about it?"
+        },
+        {
+          "id": 2,
+          "date": "2024-05-17T11:30:15Z",
+          "destination_user_id": 10,
+          "sender_user_id": 5,
+          "message": "Sure! Do you have any specific questions?"
+        }
+      ],
+      "request_status": "pending",
+      "household_composition": "Small family",
+      "household_type": "Apartment",
+      "lifestyle": "Active"
+    },
+    {
+      "id": 8,
+      "adopting_user_id": 6,
+      "rescuing_user_id": 3,
+      "pet_id": 38,
+      "creation_date": "2024-05-16T09:55:20Z",
+      "messages": [
+        {
+          "id": 1,
+          "date": "2024-05-16T09:55:20Z",
+          "destination_user_id": 6,
+          "sender_user_id": 3,
+          "message": "Hi, I'm interested in adopting your pet. Can we talk more about it?"
+        },
+        {
+          "id": 2,
+          "date": "2024-05-16T10:15:30Z",
+          "destination_user_id": 3,
+          "sender_user_id": 6,
+          "message": "Of course! Do you have any particular preferences?"
+        }
+      ],
+      "request_status": "rejected",
+      "household_composition": "Couple",
+      "household_type": "Apartment",
+      "lifestyle": "Calm"
+    },
+    {
+      "id": 9,
+      "adopting_user_id": 9,
+      "rescuing_user_id": 8,
+      "pet_id": 41,
+      "creation_date": "2024-05-15T08:40:45Z",
+      "messages": [
+        {
+          "id": 1,
+          "date": "2024-05-15T08:40:45Z",
+          "destination_user_id": 9,
+          "sender_user_id": 8,
+          "message": "Hi, I'm interested in adopting your pet. Is she available?"
+        },
+        {
+          "id": 2,
+          "date": "2024-05-15T09:00:20Z",
+          "destination_user_id": 8,
+          "sender_user_id": 9,
+          "message": "Yes, she's still looking for a home. Can I know more about you?"
+        }
+      ],
+      "request_status": "accepted",
+      "household_composition": "Small family",
+      "household_type": "House with garden",
+      "lifestyle": "Active"
+    },
+    {
+      "id": 10,
+      "adopting_user_id": 4,
+      "rescuing_user_id": 1,
+      "pet_id": 44,
+      "creation_date": "2024-05-14T07:20:30Z",
+      "messages": [
+        {
+          "id": 1,
+          "date": "2024-05-14T07:20:30Z",
+          "destination_user_id": 4,
+          "sender_user_id": 1,
+          "message": "Hi, I'm interested in adopting your pet. Can we talk more about it?"
+        },
+        {
+          "id": 2,
+          "date": "2024-05-14T07:45:15Z",
+          "destination_user_id": 1,
+          "sender_user_id": 4,
+          "message": "Sure! I'm happy to tell you more about her."
+        }
+      ],
+      "request_status": "pending",
+      "household_composition": "Large family",
+      "household_type": "House",
+      "lifestyle": "Active"
+    }
+  ]
+}
