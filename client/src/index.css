@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Open Sans Variable";
+}
+
+h1,
+span {
+  font-family: "Lora Variable", serif;
+}
