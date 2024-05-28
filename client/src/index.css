@@ -10,3 +10,7 @@ h1,
 span {
   font-family: "Lora Variable", serif;
 }
+
+input::placeholder {
+  font-family: "Open Sans Variable";
+}

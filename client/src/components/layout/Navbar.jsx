@@ -4,7 +4,9 @@ const Navbar = () => {
   return (
     <nav className="md:mx-auto  flex justify-between items-center px-[16px] md:max-w-screen-lg md:px-6 md:py-8 py-4">
       <div>
-        Logo <span className="font-bold">chameguiño</span>
+        <a href="">
+          Logo <span className="font-bold">chameguiño</span>
+        </a>
       </div>
       <div className="md:hidden cursor-pointer">
         <img src={MenuHamburger} alt="Icono del menu hamburguesa" />
