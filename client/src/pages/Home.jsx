@@ -1,4 +1,4 @@
-import CardsPet from "../components/CardsPet";
+import CardsPet from "../components/cardsPet/CardsPet";
 import Carousel from "../components/layout/Carousel";
 import Footer from "../components/layout/Footer";
 import Hero from "../components/layout/Hero";

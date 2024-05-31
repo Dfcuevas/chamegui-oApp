@@ -1,9 +1,9 @@
-import usePets from "../hooks/usePets";
-import Chester from "../assets/chester.png";
-import Timer from "../assets/timer-sand.png";
-import Location from "../assets/location-mark.png";
-import Filter from "./common/Filter";
-import useStore from "../store";
+import usePets from "../../hooks/usePets";
+import Chester from "../../assets/chester.png";
+import Timer from "../../assets/timer-sand.png";
+import Location from "../../assets/location-mark.png";
+import Filter from "../common/Filter";
+import useStore from "../../store";
 
 const CardsPet = () => {
   const { error, isLoading } = usePets();
