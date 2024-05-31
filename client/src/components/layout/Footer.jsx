@@ -1,11 +1,12 @@
 import Facebook from "../../assets/mdi_facebook.png";
 import Instagram from "../../assets/mdi_instagram.png";
 import Twitter from "../../assets/X-Twitter-Logo--Streamline-Logos-Block.png";
+import PrimaryButton from "../common/PrimaryButton";
 
 const Footer = () => {
   return (
     <footer className="bg-orange50 px-5 py-8">
-      <div className="mb-6 md:flex justify-between flex-1 md:max-w-screen-lg md:m-auto md:gap-6">
+      <div className="mb-6 md:flex justify-between flex-1 md:max-w-screen-lg md:m-auto md:gap-6 md:mb-5">
         <div className="mb-6">
           <div className="flex gap-5 text-sm justify-around md:gap-14">
             <ul>
@@ -46,17 +47,18 @@ const Footer = () => {
               placeholder="Escribe tu correo electrónico"
               className="placeholder:text-xs py-[9.5px] px-3 rounded-[4px] border border-grayBorder font"
             />
-            <button className="rounded-lg bg-indigo500 py-2 font-OpenSans text-md font-bold">
+            {/* <button className="rounded-lg bg-indigo500 py-2 font-OpenSans text-md font-bold">
               Enviar
-            </button>
+            </button> */}
+            <PrimaryButton data="Enviar" />
             <p className="font-OpenSans text-sm">
               Suscribete al boletin para acceder a información y novedades
             </p>
           </form>
         </div>
       </div>
-      <div className="flex flex-col gap-1">
-        <p className="order-1 text-center font-OpenSans text-xs">
+      <div className="flex flex-col gap-1 md:flex-row  md:justify-evenly">
+        <p className="order-1 text-center font-OpenSans text-xs md:-order-none">
           2024 Todos los derechos reservados
         </p>
         <div className="flex justify-center gap-5 ">
