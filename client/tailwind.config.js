@@ -11,6 +11,7 @@ export default {
       gray900: "#18181b",
       bgGray: "#fafafa",
       indigo50: "#eef2ff",
+      gray600: "#52525B",
     },
     fontFamily: {
       OpenSans: ["Open Sans Variable", "sans-serif"],

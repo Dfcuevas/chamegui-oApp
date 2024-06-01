@@ -7,6 +7,7 @@ import GarlandDesktop from "../../assets/garland-separator-desktop.png";
 import Chester from "../../assets/perrogrande.png";
 import Perro from "../../assets/perro.png";
 import Location from "../../assets/location-mark.png";
+import BackButton from "../layout/BackButton";
 
 const Details = () => {
   let { petId } = useParams();
@@ -20,13 +21,13 @@ const Details = () => {
     <>
       <Navbar />
       <div className="col-start-1 col-span-4">
-        {/*   <img className="sm:hidden" src={Garland} alt="Separador garland" /> */}
         <img
           src={GarlandDesktop}
           alt="Separador garland"
           className="max-w-screen-lg mx-auto"
         />
       </div>
+      <BackButton />
       <section className="max-w-screen-lg mx-auto py-12 px-6 bg-bgGray rounded-xl mb-[91px]">
         <h2 className="text-4xl font-bold mb-12">{detailPet.name}</h2>
         <div className="flex gap-5 flex-col sm:flex-row">
