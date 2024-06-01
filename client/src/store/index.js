@@ -1,9 +1,10 @@
 import { create } from "zustand";
 
-const useStore = create((set) => ({
+const useStore = create((set, get) => ({
   filterValue: "",
   setFilterValue: (filter) => set({ filterValue: filter }),
   filteredPets: [],
+  detailPet: {},
   setDataPets: (pets) => set({ filteredPets: pets }),
   setFilterByAge: (pets, value) => {
     if (value === "0") {
@@ -22,6 +23,10 @@ const useStore = create((set) => ({
   resetFilters: (data) => {
     set({ filteredPets: data });
     window.location.reload();
+  },
+  filterPetById: (id) => {
+    const pet = get().filteredPets.find((item) => item.id === id);
+    set({ detailPet: pet });
   },
 }));
 

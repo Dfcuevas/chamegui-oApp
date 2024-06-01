@@ -8,7 +8,7 @@ export const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/details",
+    path: "/details/:petId",
     element: <Details />,
   },
 ]);

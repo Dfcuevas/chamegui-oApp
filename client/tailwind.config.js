@@ -9,6 +9,8 @@ export default {
       grayBorder: "#696C69",
       white: "#fff",
       gray900: "#18181b",
+      bgGray: "#fafafa",
+      indigo50: "#eef2ff",
     },
     fontFamily: {
       OpenSans: ["Open Sans Variable", "sans-serif"],
