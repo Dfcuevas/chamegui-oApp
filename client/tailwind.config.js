@@ -4,6 +4,7 @@ export default {
   theme: {
     colors: {
       indigo500: "#a5b4fc",
+      indigo300: "#A5B4FC",
       indigo100: "#e0e7ff",
       orange50: "#FFF7ED",
       grayBorder: "#696C69",
@@ -12,6 +13,7 @@ export default {
       bgGray: "#fafafa",
       indigo50: "#eef2ff",
       gray600: "#52525B",
+      gray500: "#71717A",
     },
     fontFamily: {
       OpenSans: ["Open Sans Variable", "sans-serif"],

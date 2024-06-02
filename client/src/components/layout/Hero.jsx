@@ -3,7 +3,7 @@ import HeroImageDesktop from "../../assets/image-hero-desktop.png";
 import PrimaryButton from "../common/PrimaryButton";
 import GarlandDesktop from "../../assets/garland-separator-desktop.png";
 
-const Hero = () => {
+const Hero = ({ openModal, closeModal }) => {
   return (
     <section className="flex flex-col px-5 gap-5 mb-8 md:mb-12 sm:grid sm:grid-cols-4 sm:grid-rows-[repeat(6,minmax(0,48px))] md:max-w-screen-lg md:mx-auto">
       <div className="sm:col-span-2 sm:row-span-4 sm:grid ">
@@ -25,7 +25,7 @@ const Hero = () => {
       </div>
       {/* <div className="sm:col-start-1 sm:col-span-1 sm:row-span-1">
       </div> */}
-      <PrimaryButton data="Unirme" />
+      <PrimaryButton data="Unirme" openModal={openModal} />
       <div className="col-start-1 col-span-4">
         {/*   <img className="sm:hidden" src={Garland} alt="Separador garland" /> */}
         <img src={GarlandDesktop} alt="Separador garland" />
